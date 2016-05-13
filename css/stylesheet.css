@@ -1,0 +1,105 @@
+
+body{
+		background-color:#e8eaf6;
+		display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.parallax-container {
+	height:540px;
+}
+p{
+	font-family: Agency FB;
+	font-size: 150%;
+	color: black;
+	Text-align: center;
+}
+span{
+	font-family: Agency FB;
+	font-size: 150%;
+	color: black;
+	text-align: left;
+}
+span.bold{
+	font-family: Agency FB;
+	font-size: 150%;
+	color: black;
+	Text-align: left;
+	font-weight: bold;
+}
+p.contactus{
+	font-family: Agency FB;
+	font-size: 150%;
+	color: black;
+	Text-align: left;
+}
+H1{
+	font-family: Agency FB;
+	font-size: 250%;
+	color: black;
+	Text-align: center;
+}
+H2{
+	font-family: Agency FB;
+	font-size: 150%;
+  font-style: oblique;
+	color: gray;
+	Text-align: center;
+}
+.nav-wrapper{
+	font-family: Agency FB;
+	Text-align: left;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+footer.page-footer {
+    margin: 0;
+	font-family: Agency FB;
+	font-size: 150%;
+	color: black;
+	Text-align: center;
+}
+div.contactus {
+    position: relative;
+		top: 100px;
+    bottom: 0px;
+		left: 150px;
+    right: 0px;
+    width: 1000px;
+    height: 500px;
+}
+.btn tooltipped{
+	font-family: Agency FB;
+	font-size: 250%;
+	color: black;
+	Text-align: center;
+}
+img.center-img{
+	position: relative;
+	top: 10%;
+	}
+p.footer{
+	font-family: Agency FB;
+	font-size: 150%;
+	color: white;
+	Text-align: center;
+}
+div.padding-header{
+	padding-top: 150px
+}
+div.padding-text{
+	padding-top: 200px;
+	padding-bottom: 350px;
+}
+div.button-spacing{
+	display: inline-block;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.material-icons.purplecolor { color: #7986cb; }
