@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width"/>
+        <title>Healthy Living</title>
+        <!--Import Google Icon Font-->
+
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link id="pagestyle" rel="stylesheet" type="text/css" href="css/stylesheet.css" title="main-style">
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script src="js/init.js"></script>
+        <script type="text/javascript" src="js/buttontoggle.js"></script>
+
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    </head> <!-- Includes all scripts, fonts and stylesheets -->
+    <body>
+      <header>
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="livingahealthierlife.html">Living a Healthier Life</a></li>
+                    <li class="divider"></li>
+                    <li><a href="diet.html">Diet</a></li>
+                    <li class="divider"></li>
+                    <li><a href="exercise.html">Exercise</a></li>
+                    <li class="divider"></li>
+                </ul> <!-- Dropdown Structure -->
+                <ul id="dropdown2" class="dropdown-content">
+                    <li><a href="livingahealthierlife.html">Living A healthier Life</a></li>
+                    <li class="divider"></li>
+                    <li><a href="diet.html">Diet</a></li>
+                    <li class="divider"></li>
+                    <li><a href="exercise.html">Exercise</a></li>
+                </ul> <!-- Dropdown Structure -->
+                <nav>
+                    <div class="nav-wrapper indigo lighten-1">
+                    <a href="index.html" class="brand-logo"><img src="images/heart.png" class="responsive-img" width="60px">Healthy Living</a>
+                    <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a> <!-- Side nav for mobiles -->
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="videos.html">Videos</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                            <!-- Dropdown Trigger -->
+                            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Living a Healthier Life<i class="material-icons right">arrow_drop_down</i></a></li>
+                        </ul>
+                        <ul class="side-nav" id="mobile-nav"> <!-- Mobile navigation links -->
+                            <li><a href="videos.html">Videos</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Living a Healthier Life<i class="material-icons right">arrow_drop_down</i></a></li>
+                        </ul>
+                    </div>
+                </nav><!-- Navigation Bar -->
+      </header><!-- Heading holding "Healthy Living" text and nav bar -->
+            <div class="fixed-action-btn" style="bottom: 45px; right: 24px;"> <!-- Hides the parralax on Medium screen size and lower, this is due to how the parallax looks on smaller screens -->
+              <a class="btn-floating btn-large indigo lighten-1 "><i class="large material-icons">accessible</i></a>
+                <ul>
+                  <li><a class="btn-floating  grey lighten-5" onclick="swapStyleSheet('css/darkmode.css')" ><i class="material-icons purplecolor">remove_red_eye</i></a></li> <!-- Eye Icon -->
+                  <li><a class="btn-floating  indigo lighten-2" onclick="swapStyleSheet('css/stylesheet.css')"><i class="material-icons">remove_red_eye</i></a></li> <!-- Eye Icon -->
+                  <li><a class="btn-floating  indigo lighten-1"><input type="image" src="images/accessibility/plus-symbol.png"id="In" width="100%" height="100%"/></a></li>
+                  <li><a class="btn-floating  indigo lighten-1"><input type="image" src="images/accessibility/minus-symbol.png"id="Out" width="20" height="10"/></a></li>
+                </ul <!-- Magnifying Glass Icon -->
+              </div><!-- Acessibility Icon in bottom right of page -->
+   	<h1>Contact Us</h1>
+   	<p> If you any questions feel free to contact us from any of the methods below </p>
+    <div class="container">
+          <img class="hide-on-small-only" src="images/ContactUs/phone.png" width="90px" style="position: relative; top: 35px;"><span class="bold">By Phone : </span> <span>07400911711</span><br><br><br><br>
+          <img class="hide-on-small-only" src="images/ContactUs/mail.png" width="90px" style="position: relative; top: 35px;"><span class="bold">By Email : </span> <span>William.G.Keel@gmail.com</span><br><br><br><br>
+          <img class="hide-on-small-only" src="images/ContactUs/email.png" width="90px" style="position: relative; top: 35px;"><span class="bold">Send us a letter : </span> <span>13, Vicarage Hill. MK45 1HZ</span><br><br><br><br>
+    </div>
+        <footer class="page-footer indigo lighten-1">
+            <div class="container">
+                <div class="row">
+                	<div class="col l6 s12">
+                    	<h5 class="white-text"><b>Links</b></h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Youtube</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l6 s12">
+                        <h5 class="white-text"><b>Contact Number</b></h5>
+                        <p class="grey-text text-lighten-4">07400 911711</p>
+                    </div>
+                </div>
+                <p class="footer">The time is:</p>
+                <p class="footer" id="time"></p>
+					<script>
+                    	document.getElementById("time").innerHTML = Date();
+                    </script>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                	© 2016 William Keel
+                </div>
+            </div>
+        </footer> <!-- Footer of the page -->
+    </body>
+</html>
